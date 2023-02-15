@@ -1,4 +1,4 @@
-1. Replace `<your_account>` with your Github username in the link
+1. Replace `<Tania-del>` with your Github username in the link
     - [DEMO LINK](https://<your_account>.github.io/js_task_fix_form_DOM/)
 2. Follow [this instructions](https://mate-academy.github.io/layout_task-guideline/)
     - Run `npm run test` command to test your code;
@@ -34,4 +34,3 @@ Do not change styles or HTML layout in this task. Change only `main.js` file.
 
 Expected result:
 
-![Preview](./src/images/result.png)

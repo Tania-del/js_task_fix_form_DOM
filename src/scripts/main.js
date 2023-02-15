@@ -7,12 +7,12 @@ inputs.forEach((input, id) => {
 
   label.classList.add('field-label');
 
-  const { parentElement } = input;
+  const { parentElement, name: inputName } = input;
 
   parentElement.prepend(label);
 
-  label.textContent = input.name.toUpperCase();
-  input.placeholder = input.name.charAt(0).toUpperCase() + name.slice(1);
+  label.textContent = inputName.toUpperCase();
+  input.placeholder = inputName.charAt(0).toUpperCase() + inputName.slice(1);
   input.id = id;
   label.htmlFor = id;
 });
